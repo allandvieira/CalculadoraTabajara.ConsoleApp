@@ -10,9 +10,9 @@ namespace CalculadoraTabajara.ConsoleApp
     {
         public static double DoOperation(double num1, double num2, string op)
         {
-            double resultado = double.NaN; // O valor padrão é "não-um-número", que usamos se em uma operação, como divisão, puder resultar em erro
+            double resultado = double.NaN; // O valor padrão é um "não-número", caso o resultado da divisão seja um erro
 
-            // Usa uma instrução switch para fazer as contas
+            // Instrução switch para as contas
             switch (op)
             {
                 case "1":

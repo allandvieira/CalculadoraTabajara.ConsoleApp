@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             bool endApp = false;
-            // Mostra o titulo da calculadora em C#
+            // Titulo da calculadora
             Console.WriteLine("Calculadora Tabajara em C#\r");
             Console.WriteLine("--------------------------\n");
 
@@ -16,7 +16,7 @@
                 string numeroEntrada2 = "";
                 double result = 0;
 
-                // Pedimos para o usuário digitar o primeiro numero
+                // Entrada do primeiro numero
                 Console.Write("Digite um número e pressione Enter: ");
                 numeroEntrada1 = Console.ReadLine();
 
@@ -27,7 +27,7 @@
                     numeroEntrada1 = Console.ReadLine();
                 }
 
-                // Pedimos para o usuário digitar o segundo numero
+                // Entrada do segundo numero
                 Console.Write("Digite outro número e pressione Enter: ");
                 numeroEntrada2 = Console.ReadLine();
 
@@ -38,7 +38,7 @@
                     numeroEntrada2 = Console.ReadLine();
                 }
 
-                // Peça ao usuário para escolher uma operação
+                // Menu
                 Console.WriteLine("Escolha um operador na lista a seguir:");
                 Console.WriteLine("\t1 - Adicionar");
                 Console.WriteLine("\t2 - Subtrair");
@@ -64,7 +64,7 @@
 
                 Console.WriteLine("------------------------\n");
 
-                // Aguarde a resposta do usuário antes de fechar
+                // Resposta do usuário antes de fechar
                 Console.Write("Pressione 'S' e Enter para fechar o aplicativo ou pressione qualquer outra tecla e Enter para continuar: ");
                 if (Console.ReadLine() == "S") endApp = true;
 
