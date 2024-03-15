@@ -25,7 +25,7 @@ namespace CalculadoraTabajara.ConsoleApp
                     resultado = num1 * num2;
                     break;
                 case "4":
-                    // Peça ao usuário para inserir um divisor diferente de zero
+                    // Solicite ao usuário para inserir um divisor diferente de zero
                     if (num2 != 0)
                     {
                         resultado = num1 / num2;
